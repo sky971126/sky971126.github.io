@@ -3,7 +3,9 @@ body{
 }
 
 #index{
-	background-image: url("../images/Galaxy2.jpg");
+	background-image: url("../images/Galaxy.jpg");
+	background-size: 120%;
+	background-repeat: no-repeat;
 }
 
 li{
@@ -26,7 +28,7 @@ nav ul li a{
 
 .instruction{
 	color: black;
-	font-family: 'Charmonman', cursive;
+	font-size: 20px;
 }
 
 #tool{
@@ -49,16 +51,17 @@ nav ul li a{
 	height: 333px;
 }
 
-h2 .How{
-	color: red;
+.How{
+	font-size: 30px;
 }
 
-h2 .Subject{
+.select{
+	font-size: 25px;
 	color: blue;
 }
 
-h2 .Once{
-	color: green;
+.Once{
+	color: black;
 }
 
 #ref{
@@ -70,5 +73,14 @@ h2 .Once{
 }
 
 #tel{
+	color: blue;
+}
+
+#Moon li{
+	color: grey;
+	display: block;
+}
+
+#contact #email{
 	color: blue;
 }
