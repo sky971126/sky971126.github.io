@@ -8,3 +8,63 @@ li{
 	background-color: white;
 	color: black;
 }
+
+nav ul li a{
+	background-color: none;
+	opacity:0.8;
+}
+
+#welcome{
+	color: white;
+	font-family: 'Charmonman', cursive;
+	font-size: 25px;
+}
+
+.instruction{
+	color: black;
+	font-family: 'Charmonman', cursive;
+}
+
+#tool{
+	display:block;
+}
+
+#tool li{
+	color: grey;
+	display: block;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-container div .star{
+	width: 500px;
+	height: 333px;
+}
+
+h2 .How{
+	color: red;
+}
+
+h2 .Subject{
+	color: blue;
+}
+
+h2 .Once{
+	color: green;
+}
+
+#ref{
+	color: grey;
+}
+
+#ref a{
+	color: blue;
+}
+
+#tel{
+	color: blue;
+}
