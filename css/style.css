@@ -2,6 +2,10 @@ body{
     background-color: white;
 }
 
+#index{
+	background-image: url("../images/Galaxy2.jpg");
+}
+
 li{
 	text-decoration: none;
 	display:inline;
