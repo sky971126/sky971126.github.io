@@ -2,9 +2,19 @@ body{
     background-color: white;
 }
 
+#instruction, #contact{
+	margin-left: 5%;
+	margin-right: 25%;
+}
+
+h3{
+	font-size: 16px;
+	opacity: 0.8;
+}
+
 #index{
-	background-image: url("../images/Galaxy.jpg");
-	background-size: 120%;
+	background-image: url("../images/rick-and-morty-silhouette-on-starry-sky.jpg");
+	background-size: 100vw 108vh;
 	background-repeat: no-repeat;
 }
 
@@ -35,9 +45,16 @@ nav ul li a{
 	display:block;
 }
 
-#tool li{
+#instruction li{
 	color: grey;
 	display: block;
+}
+
+#instruction nav li{
+	text-decoration: none;
+	display:inline;
+	background-color: white;
+	color: black;
 }
 
 .flex-container {
@@ -51,17 +68,11 @@ nav ul li a{
 	height: 333px;
 }
 
-.How{
-	font-size: 30px;
-}
-
-.select{
-	font-size: 25px;
-	color: blue;
-}
-
-.Once{
-	color: black;
+.instruction_img{
+	display: block;
+	margin-left: 10%;
+	margin-right: auto;
+	width: 30%;
 }
 
 #ref{
@@ -76,11 +87,10 @@ nav ul li a{
 	color: blue;
 }
 
-#Moon li{
-	color: grey;
-	display: block;
-}
-
 #contact #email{
 	color: blue;
+}
+
+footer a{
+	display: block
 }
