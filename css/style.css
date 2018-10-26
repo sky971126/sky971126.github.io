@@ -13,7 +13,7 @@ h3{
 }
 
 #index{
-	background-image: url("../images/rick-and-morty-silhouette-on-starry-sky.jpg");
+	background-image: url("../images/Maroon_Bells.jpg");
 	background-size: 100vw 108vh;
 	background-repeat: no-repeat;
 }
@@ -26,8 +26,17 @@ li{
 }
 
 nav ul li a{
-	background-color: none;
-	opacity:0.8;
+	color: black;
+	opacity: 0.8;
+	display: block
+}
+
+nav ul li{
+	background-color: transparent;
+}
+
+#index nav ul li a{
+	color: white;
 }
 
 #welcome{
@@ -93,4 +102,30 @@ nav ul li a{
 
 footer a{
 	display: block
+}
+
+@media screen and (min-width:800px){
+	#index{
+		background-image: url("../images/rick-and-morty-silhouette-on-starry-sky.jpg");
+		background-size: 100vw 108vh;
+		background-repeat: no-repeat;
+	}
+}
+@media screen and (min-width:550px){
+	nav ul li a{
+		opacity:0.8;
+		display: inline-block;
+	}
+}
+@media only screen and (orientation: portrait) {
+    #contact{
+		background-color: black;
+		color: white;
+		max-width: 300px;
+		margin: auto;
+	}
+	#contact nav a{
+		color: white;
+		display: block;
+	}
 }
